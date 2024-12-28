@@ -18,6 +18,7 @@
 services:
   eureka-server:
     image: eureka-server
+    container_name: eureka-server
     build:
       context: .
     ports:
